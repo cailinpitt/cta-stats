@@ -13,7 +13,16 @@
   pointer-events: none;
 }
 
+.info-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-button {
+  padding-top: 40px;
+}
+
 #stats {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 

@@ -188,6 +188,8 @@ const showStats = () => {
   statsContainer.appendChild(heading);
   statsContainer.appendChild(progressBar);
   statsContainer.appendChild(table);
+
+  window.scrollTo(0, document.body.scrollHeight);
 };
 
 document.addEventListener("click", (e) => {
