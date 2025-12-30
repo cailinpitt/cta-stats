@@ -1,0 +1,19 @@
+#station_icons {
+  cursor: default;
+}
+
+#station_icons use,
+#station_icons g,
+#station_icons path {
+  cursor: pointer;
+}
+
+.checkmark {
+  font-size: 12px;
+  pointer-events: none;
+}
+
+#stats {
+    padding-top: 40px;
+}
+
